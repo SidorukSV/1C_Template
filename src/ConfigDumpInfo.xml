@@ -30,8 +30,8 @@
 		<Metadata name="CommonModule.бит_СобытияВызовСервера.Module" id="17d9d0a0-af6b-4825-9c23-89bbbb0a9b8c.0" configVersion="0dec91e5bb03d24584a1939ddf66db5300000000"/>
 		<Metadata name="CommonModule.бит_СобытияКлиент" id="be8aca52-ab9b-43a5-9180-146f3c7cd8f2" configVersion="845cb60950c1564a803527b503062ffa00000000"/>
 		<Metadata name="CommonModule.бит_СобытияКлиент.Module" id="be8aca52-ab9b-43a5-9180-146f3c7cd8f2.0" configVersion="a79bbeeef1ff5b49be042a14092704b500000000"/>
-		<Metadata name="CommonModule.бит_СобытияКлиентСерверПовтИсп" id="695281d8-62ba-4c2f-be3c-66ba67bd38f3" configVersion="fb1f5b777a8e8a4d8c7e8d113bfbf37e00000000"/>
-		<Metadata name="CommonModule.бит_СобытияКлиентСерверПовтИсп.Module" id="695281d8-62ba-4c2f-be3c-66ba67bd38f3.0" configVersion="250e5d732b5f444b98954a528eb79a6b00000000"/>
+		<Metadata name="CommonModule.бит_СобытияКлиентСерверПовтИсп" id="695281d8-62ba-4c2f-be3c-66ba67bd38f3" configVersion="3454d1c2f7b0f4429801c5a6589c046200000000"/>
+		<Metadata name="CommonModule.бит_СобытияКлиентСерверПовтИсп.Module" id="695281d8-62ba-4c2f-be3c-66ba67bd38f3.0" configVersion="352e8d63ebe66a47aef975c1ca7e79c800000000"/>
 		<Metadata name="Configuration.Конфигурация" id="8e6c3f9d-4862-4ba8-8831-47b2c34c45fa" configVersion="982403ad8300de4e930c9531d6c109f100000000"/>
 		<Metadata name="Language.Русский" id="b67a8ef6-e30b-4680-ab20-9f83f6277f3a" configVersion="0428078bdb2a7f4991ebbba4a716a5c600000000"/>
 	</ConfigVersions>
