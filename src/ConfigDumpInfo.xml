@@ -33,7 +33,7 @@
 		<Metadata name="CommonModule.бит_СобытияПовтИсп.Module" id="695281d8-62ba-4c2f-be3c-66ba67bd38f3.0" configVersion="f08e4a8b15ca154f92f8f9e8ba637fbd00000000"/>
 		<Metadata name="CommonModule.бит_СобытияСервер" id="17d9d0a0-af6b-4825-9c23-89bbbb0a9b8c" configVersion="83436d4b331a9f4bac39cfb213a7d08b00000000"/>
 		<Metadata name="CommonModule.бит_СобытияСервер.Module" id="17d9d0a0-af6b-4825-9c23-89bbbb0a9b8c.0" configVersion="0241bf330ef12845b82263ba9b654aa500000000"/>
-		<Metadata name="Configuration.Конфигурация" id="8e6c3f9d-4862-4ba8-8831-47b2c34c45fa" configVersion="36110ee6bb757940a59d48168cb9cf3300000000"/>
+		<Metadata name="Configuration.Конфигурация" id="8e6c3f9d-4862-4ba8-8831-47b2c34c45fa" configVersion="404a8080128a744eb79135816884d30600000000"/>
 		<Metadata name="Language.Русский" id="b67a8ef6-e30b-4680-ab20-9f83f6277f3a" configVersion="7f6debdd84c1374ba58f82573526fb6d00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
