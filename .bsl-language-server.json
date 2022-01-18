@@ -11,7 +11,9 @@
             "LineLength": {
                 "maxLineLength": 140
             },
-            "MethodSize": false
+            "MethodSize": false,
+            "NonStandardRegion": false,
+            "MagicNumber": false
         }
     }
   }

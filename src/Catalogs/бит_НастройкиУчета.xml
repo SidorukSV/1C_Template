@@ -640,7 +640,6 @@
 			<Form>ФормаСписка</Form>
 			<Form>ФормаВыбора</Form>
 			<Form>ФормаОбщая</Form>
-			<Template>ПервоначальноеЗаполнение</Template>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

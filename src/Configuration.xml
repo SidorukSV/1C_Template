@@ -201,12 +201,14 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<CommonModule>бит_СобытияВызовСервера</CommonModule>
-			<CommonModule>бит_СобытияКлиентСерверПовтИсп</CommonModule>
+			<CommonModule>бит_СобытияСервер</CommonModule>
 			<CommonModule>бит_СобытияКлиент</CommonModule>
-			<CommonModule>бит_ОбщегоНазначенияПривилегированный</CommonModule>
+			<CommonModule>бит_СобытияПовтИсп</CommonModule>
+			<CommonModule>бит_ОбщегоНазначения</CommonModule>
+			<CommonModule>бит_ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>бит_ОбщегоНазначенияВызовСервера</CommonModule>
-			<CommonModule>бит_ОбновлениеИнформационнойБазыНетиповое</CommonModule>
+			<CommonModule>бит_ОбщегоНазначенияПолныеПрава</CommonModule>
+			<CommonModule>бит_ОбновлениеРелизаВызовСервера</CommonModule>
 			<Catalog>бит_НастройкиУчета</Catalog>
 		</ChildObjects>
 	</Configuration>
