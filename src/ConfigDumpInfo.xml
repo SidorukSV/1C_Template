@@ -27,6 +27,8 @@
 		<Metadata name="CommonModule.бит_ОбщегоНазначенияКлиент" id="363c59e8-1e1b-48ee-8439-1da45fa68dee" configVersion="82ff1ae629ed7c4b8d25273a7ee1c2db00000000"/>
 		<Metadata name="CommonModule.бит_ОбщегоНазначенияПолныеПрава" id="6577e0b6-a161-4589-a878-50bbd6f56979" configVersion="23253eb389c065459be4a4e2484aa48f00000000"/>
 		<Metadata name="CommonModule.бит_ОбщегоНазначенияПолныеПрава.Module" id="6577e0b6-a161-4589-a878-50bbd6f56979.0" configVersion="3ad614aee1f6fc4cac0fc402f533667a00000000"/>
+		<Metadata name="CommonModule.бит_ПодпискиНаСобытия" id="b45b7b75-7027-44ff-be15-a3ee31588ee5" configVersion="5554aabe0d3e64478528766e920f563e00000000"/>
+		<Metadata name="CommonModule.бит_ПодпискиНаСобытия.Module" id="b45b7b75-7027-44ff-be15-a3ee31588ee5.0" configVersion="5e0daae4be20bd48b17c105b0755d79100000000"/>
 		<Metadata name="CommonModule.бит_СобытияКлиент" id="be8aca52-ab9b-43a5-9180-146f3c7cd8f2" configVersion="c99033efee323d4bb0f8250328f6a2ed00000000"/>
 		<Metadata name="CommonModule.бит_СобытияКлиент.Module" id="be8aca52-ab9b-43a5-9180-146f3c7cd8f2.0" configVersion="640e5ecd15b9ad48b9e771c3ea0b2a6e00000000"/>
 		<Metadata name="CommonModule.бит_СобытияПовтИсп" id="695281d8-62ba-4c2f-be3c-66ba67bd38f3" configVersion="879892d62220394f9355a886f62db35a00000000"/>
@@ -35,7 +37,7 @@
 		<Metadata name="CommonModule.бит_СобытияСервер.Module" id="17d9d0a0-af6b-4825-9c23-89bbbb0a9b8c.0" configVersion="b638497f52085041a76dc84a75974f9400000000"/>
 		<Metadata name="CommonModule.бит_СобытияСлужебный" id="f326b6fe-c10d-4e72-bca5-fe0110b88f0b" configVersion="77903c9ded59f84690473be6b471fa9d00000000"/>
 		<Metadata name="CommonModule.бит_СобытияСлужебный.Module" id="f326b6fe-c10d-4e72-bca5-fe0110b88f0b.0" configVersion="b5a72fff0748f943a738ae7fd59e36d300000000"/>
-		<Metadata name="Configuration.Конфигурация" id="8e6c3f9d-4862-4ba8-8831-47b2c34c45fa" configVersion="b5bd622207552543b7d74be4861a361000000000"/>
+		<Metadata name="Configuration.Конфигурация" id="8e6c3f9d-4862-4ba8-8831-47b2c34c45fa" configVersion="45b222d880a7144d8fd736789c65617500000000"/>
 		<Metadata name="Language.Русский" id="b67a8ef6-e30b-4680-ab20-9f83f6277f3a" configVersion="14bb8b502f70234eaa0ea6cd8f08e7f700000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
