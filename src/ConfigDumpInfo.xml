@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.14">
 	<ConfigVersions>
 		<Metadata name="Catalog.бит_НастройкиУчета" id="6c0c874d-d710-4951-9786-853b25743c86" configVersion="abf2f1ed2c99e94f8e8a421ea1734c1200000000">
 			<Metadata name="Catalog.бит_НастройкиУчета.TabularSection.Значения.Attribute.Ключ" id="0fa52805-1856-490a-b534-5363298728ba"/>
@@ -20,17 +20,17 @@
 		<Metadata name="Catalog.бит_НастройкиУчета.ManagerModule" id="6c0c874d-d710-4951-9786-853b25743c86.3" configVersion="20e93a4f5c15af4ca89e6e7b1181fc5700000000"/>
 		<Metadata name="CommonModule.бит_ОбновлениеРелизаВызовСервера" id="6d5de3af-16be-4c6d-be8e-9b1ca64c68f6" configVersion="4e70a111b077204785c3d0972ff6705b00000000"/>
 		<Metadata name="CommonModule.бит_ОбновлениеРелизаВызовСервера.Module" id="6d5de3af-16be-4c6d-be8e-9b1ca64c68f6.0" configVersion="b167c8fa3bcbbe4c82dad7a283e9290800000000"/>
-		<Metadata name="CommonModule.бит_ОбщегоНазначения" id="c98a9bf1-56da-4cd9-afc0-cf66512c4b84" configVersion="59671c8c0ef50946bbcabcba97cff07b00000000"/>
-		<Metadata name="CommonModule.бит_ОбщегоНазначения.Module" id="c98a9bf1-56da-4cd9-afc0-cf66512c4b84.0" configVersion="500c3a096cc5874a8474678b71c2ee9300000000"/>
+		<Metadata name="CommonModule.бит_ОбщегоНазначения" id="c98a9bf1-56da-4cd9-afc0-cf66512c4b84" configVersion="5260e077ffa3ba4e971361d7fbd8f9b800000000"/>
+		<Metadata name="CommonModule.бит_ОбщегоНазначения.Module" id="c98a9bf1-56da-4cd9-afc0-cf66512c4b84.0" configVersion="065ec7fcc375ef4fa235b563d5d03a6200000000"/>
 		<Metadata name="CommonModule.бит_ОбщегоНазначенияВызовСервера" id="741298bf-abd8-475d-9954-bdaeff2edaed" configVersion="9afaa95ded736244b89b9076626128ab00000000"/>
 		<Metadata name="CommonModule.бит_ОбщегоНазначенияВызовСервера.Module" id="741298bf-abd8-475d-9954-bdaeff2edaed.0" configVersion="dc95cea061e75c47acbb37415fa2728a00000000"/>
 		<Metadata name="CommonModule.бит_ОбщегоНазначенияКлиент" id="363c59e8-1e1b-48ee-8439-1da45fa68dee" configVersion="82ff1ae629ed7c4b8d25273a7ee1c2db00000000"/>
 		<Metadata name="CommonModule.бит_ОбщегоНазначенияПолныеПрава" id="6577e0b6-a161-4589-a878-50bbd6f56979" configVersion="23253eb389c065459be4a4e2484aa48f00000000"/>
 		<Metadata name="CommonModule.бит_ОбщегоНазначенияПолныеПрава.Module" id="6577e0b6-a161-4589-a878-50bbd6f56979.0" configVersion="3ad614aee1f6fc4cac0fc402f533667a00000000"/>
-		<Metadata name="CommonModule.бит_ПодпискиНаСобытия" id="b45b7b75-7027-44ff-be15-a3ee31588ee5" configVersion="5554aabe0d3e64478528766e920f563e00000000"/>
-		<Metadata name="CommonModule.бит_ПодпискиНаСобытия.Module" id="b45b7b75-7027-44ff-be15-a3ee31588ee5.0" configVersion="5e0daae4be20bd48b17c105b0755d79100000000"/>
-		<Metadata name="CommonModule.бит_СобытияКлиент" id="be8aca52-ab9b-43a5-9180-146f3c7cd8f2" configVersion="c99033efee323d4bb0f8250328f6a2ed00000000"/>
-		<Metadata name="CommonModule.бит_СобытияКлиент.Module" id="be8aca52-ab9b-43a5-9180-146f3c7cd8f2.0" configVersion="640e5ecd15b9ad48b9e771c3ea0b2a6e00000000"/>
+		<Metadata name="CommonModule.бит_ПодпискиНаСобытия" id="b45b7b75-7027-44ff-be15-a3ee31588ee5" configVersion="ade50c4e152382449dbd1323dd98ca4700000000"/>
+		<Metadata name="CommonModule.бит_ПодпискиНаСобытия.Module" id="b45b7b75-7027-44ff-be15-a3ee31588ee5.0" configVersion="93f909c174b90a4aa7000045aaee633400000000"/>
+		<Metadata name="CommonModule.бит_СобытияКлиент" id="be8aca52-ab9b-43a5-9180-146f3c7cd8f2" configVersion="0eb90ad7c03a8843927b42d41413cac300000000"/>
+		<Metadata name="CommonModule.бит_СобытияКлиент.Module" id="be8aca52-ab9b-43a5-9180-146f3c7cd8f2.0" configVersion="d1e8e5d72d076b4286fb248465289c1b00000000"/>
 		<Metadata name="CommonModule.бит_СобытияПовтИсп" id="695281d8-62ba-4c2f-be3c-66ba67bd38f3" configVersion="879892d62220394f9355a886f62db35a00000000"/>
 		<Metadata name="CommonModule.бит_СобытияПовтИсп.Module" id="695281d8-62ba-4c2f-be3c-66ba67bd38f3.0" configVersion="27dfb3f693c74e4c886ac801af71953c00000000"/>
 		<Metadata name="CommonModule.бит_СобытияСервер" id="17d9d0a0-af6b-4825-9c23-89bbbb0a9b8c" configVersion="8a4a02779c224545b59ea0e6e6c20c7f00000000"/>
