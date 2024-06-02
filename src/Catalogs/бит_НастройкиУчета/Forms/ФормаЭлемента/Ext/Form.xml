@@ -1,92 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
-	<Events>
-		<Event name="OnOpen">ПриОткрытии</Event>
-	</Events>
 	<ChildItems>
-		<InputField name="Код" id="1">
-			<DataPath>Объект.Code</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
-		</InputField>
-		<InputField name="Наименование" id="4">
+		<InputField name="Наименование" id="1">
 			<DataPath>Объект.Description</DataPath>
-			<ReadOnly>true</ReadOnly>
 			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
 		</InputField>
-		<InputField name="Ключ" id="29">
-			<DataPath>Объект.Ключ</DataPath>
-			<ContextMenu name="КлючКонтекстноеМеню" id="30"/>
-			<ExtendedTooltip name="КлючРасширеннаяПодсказка" id="31"/>
-		</InputField>
-		<InputField name="Значение" id="7">
-			<DataPath>Объект.Значение</DataPath>
+		<InputField name="Идентификатор" id="4">
+			<DataPath>Объект.Идентификатор</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ЗначениеКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="ЗначениеРасширеннаяПодсказка" id="9"/>
+			<ContextMenu name="ИдентификаторКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<Table name="Значения" id="10">
-			<Representation>List</Representation>
-			<AutoInsertNewRow>true</AutoInsertNewRow>
-			<EnableStartDrag>true</EnableStartDrag>
-			<EnableDrag>true</EnableDrag>
-			<FileDragMode>AsFile</FileDragMode>
-			<DataPath>Объект.Значения</DataPath>
-			<RowFilter xsi:nil="true"/>
-			<ContextMenu name="ЗначенияКонтекстноеМеню" id="11"/>
-			<AutoCommandBar name="ЗначенияКоманднаяПанель" id="12"/>
-			<ExtendedTooltip name="ЗначенияРасширеннаяПодсказка" id="13"/>
-			<SearchStringAddition name="ЗначенияСтрокаПоиска" id="14">
-				<AdditionSource>
-					<Item>Значения</Item>
-					<Type>SearchStringRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="ЗначенияСтрокаПоискаКонтекстноеМеню" id="15"/>
-				<ExtendedTooltip name="ЗначенияСтрокаПоискаРасширеннаяПодсказка" id="16"/>
-			</SearchStringAddition>
-			<ViewStatusAddition name="ЗначенияСостояниеПросмотра" id="17">
-				<AdditionSource>
-					<Item>Значения</Item>
-					<Type>ViewStatusRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="ЗначенияСостояниеПросмотраКонтекстноеМеню" id="18"/>
-				<ExtendedTooltip name="ЗначенияСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
-			</ViewStatusAddition>
-			<SearchControlAddition name="ЗначенияУправлениеПоиском" id="20">
-				<AdditionSource>
-					<Item>Значения</Item>
-					<Type>SearchControl</Type>
-				</AdditionSource>
-				<ContextMenu name="ЗначенияУправлениеПоискомКонтекстноеМеню" id="21"/>
-				<ExtendedTooltip name="ЗначенияУправлениеПоискомРасширеннаяПодсказка" id="22"/>
-			</SearchControlAddition>
-			<ChildItems>
-				<LabelField name="ЗначенияНомерСтроки" id="23">
-					<DataPath>Объект.Значения.LineNumber</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ЗначенияНомерСтрокиКонтекстноеМеню" id="24"/>
-					<ExtendedTooltip name="ЗначенияНомерСтрокиРасширеннаяПодсказка" id="25"/>
-				</LabelField>
-				<InputField name="ЗначенияКлюч" id="32">
-					<DataPath>Объект.Значения.Ключ</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ЗначенияКлючКонтекстноеМеню" id="33"/>
-					<ExtendedTooltip name="ЗначенияКлючРасширеннаяПодсказка" id="34"/>
-				</InputField>
-				<InputField name="ЗначенияЗначение" id="26">
-					<DataPath>Объект.Значения.Значение</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ЗначенияЗначениеКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="ЗначенияЗначениеРасширеннаяПодсказка" id="28"/>
-				</InputField>
-			</ChildItems>
-		</Table>
+		<InputField name="Описание" id="7">
+			<DataPath>Объект.Описание</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="ОписаниеКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="9"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
